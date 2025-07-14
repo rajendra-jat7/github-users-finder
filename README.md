@@ -26,7 +26,7 @@ A responsive React web application that fetches users from the GitHub API and di
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/github-users-app.git
+git clone https://github.com/rajendra-jat7/github-users-finder.git
 cd github-users-app
 npm install
 npm run dev
