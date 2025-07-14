@@ -1,12 +1,73 @@
-# React + Vite
+# 👤 GitHub Users App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React web application that fetches users from the GitHub API and displays them in stylish cards with **search**, **pagination**, and **user profile details**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Features
 
-## Expanding the ESLint configuration
+- 🔎 Search users by **login** or **ID**
+- 📦 Fetches live data from `https://api.github.com/users`
+- 🗂 Paginated user listing
+- 🪪 Detailed user card with:
+  - Avatar
+  - Username
+  - User ID
+  - Profile link
+  - Type (User/Org)
+  - Admin status
+  - Repos link
+- 🎨 Tailwind CSS for clean, dark gray theme
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/your-username/github-users-app.git
+cd github-users-app
+npm install
+npm run dev
+```
+
+---
+
+## Tech Stack
+
+- React.js
+- Tailwind CSS
+- GitHub REST API
+
+---
+
+## Future Improvements
+
+- Implement lazy loading / infinite scroll for better performance.
+- Display public repository count dynamically.
+- Add a toggle for filtering GitHub organizations.
+- Enhance user experience with a modal showing extra details on card click.
+- Replace plain text loaders with a more visually appealing component.
+
+---
+
+## Contributing
+
+Contributions are welcome! If you plan to make major changes, please open an issue first to discuss.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+## Author
+
+Made with ❤️ by _Rajendra Jat_
+
+---
+
+Let me know if you want to publish this on GitHub — I’ll help write the repo description and tags too! 🚀
